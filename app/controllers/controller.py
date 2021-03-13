@@ -11,4 +11,6 @@ def index():
 def show_game_result(player1,player2):
     player1_choice = player1
     player2_choice = player2
-    return game_result(player1_choice,player2_choice)
+    outcome = game_result(player1_choice,player2_choice)
+    return render_template('game_result.html', title='Game Result', outcome = outcome)
+    
