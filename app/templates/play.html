@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block content %}
+<h1>Play the game against the PC</h1>
+<form action="/play" method="POST">
+    <label for="player_name">Player name:</label>
+    <input type="text" id="player_name" name="player_name" placeholder="Player name">
+    <label for="player_choice">Player choice:</label>
+    <select type="text" id="player_choice" name="player_choice" placeholder="Player choice">
+        <option value="rock">rock</option>
+        <option value="paper">paper</option>
+        <option value="scissors">scissors</option>
+    </select>
+    <input type="submit" value="Play PC">
+</form>
+{% endblock %}

@@ -14,7 +14,17 @@ h2 {
     color: darkblue;
     background-color: white;
     font-style: italic;
-    padding: 10px;
+    padding: 4px;
+    margin:2px;
+}
+
+h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    background-color: white;
+    font-style: italic;
+    padding: 4px;
+    margin:2px;
 }
 
 hgroup {
@@ -24,4 +34,7 @@ hgroup {
 body {
     background-image: url(../static/RPS.jpg);
     background-position: center;
+    display: block;
+    background-repeat: no-repeat;
+    background-size:cover;
 }

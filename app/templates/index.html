@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/game_result.css">
     <title>/{{title}}</title>
 </head>
     <h1>Rock Paper Scissors</h1>
 <body>
     <hgroup>
-        <h2>Please input Player 1's choice, then Player 2's choice in the browser to find out result</h2>
-        <h2>i.e. rock/paper</h2>
+        <h2>Please input Player 1's choice, then Player 2's choice in the browser to find out result i.e. rock/paper</h2>
+        <h3>Rock beats scissors</h3>
+        <h3>Paper beats rock</h3>
+        <h3>Scissors beats paper</h3>
     </hgroup>
+    {% block content %}
+    
+    {% endblock %}
 </body>
 </html>
