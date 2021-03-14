@@ -38,3 +38,17 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+.pc_button {
+    color: yellow;
+    background-color: purple;
+    font-size: 30px;
+    margin: 20px 20px;
+    cursor: pointer;
+    text-align: center
+    display:center;
+}
+
+body > div > form {
+    text-align: center;
+}

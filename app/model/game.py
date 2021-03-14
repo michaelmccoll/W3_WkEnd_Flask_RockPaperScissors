@@ -48,3 +48,11 @@ def game_result_vs_pc(name_of_player,choice_of_player):
     elif choice_of_player == "scissors" and pc_choice == "rock":
         return f"Player 2 WINS, {pc_choice} beats {choice_of_player}"
     else: return f"Please type only type rock, paper or scissors"
+
+def play_pc():
+    name_of_player = request.form['player_name']
+    choice_of_player = request.form['player_choice']
+    play_pc = Game(name_of_player,choice_of_player)
+    outcome_vs_pc = game_result_vs_pc(play_pc)
+    print(outcome_vs_pc)
+    return outcome_vs_pc
